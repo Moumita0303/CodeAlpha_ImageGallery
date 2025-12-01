@@ -1,0 +1,121 @@
+/* Global reset and font */
+* {
+    box-sizing: border-box;
+    font-family: system-ui, Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    background: #f5f7fb;
+    color: #111;
+}
+
+/* Header */
+.site-header {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Filter buttons */
+.filters button {
+    margin: 0 6px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+}
+.filters button.active {
+    background: #111;
+    color: #fff;
+}
+
+/* Gallery grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    padding: 20px;
+}
+
+/* Cards */
+.card {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+}
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: transform .35s ease, filter .35s ease;
+}
+.card:hover img {
+    transform: scale(1.05);
+    filter: contrast(1.05);
+}
+
+/* Lightbox fullscreen */
+.lightbox {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /* remove dark shadow */
+    z-index: 1000;
+}
+
+}
+.lightbox.hidden {
+    display: none;
+}
+
+/* Lightbox image - no shadow */
+.lightbox-img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    box-shadow: none !important; /* removes any shadow */
+    border: none;
+}
+
+/* Close button */
+.lb-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    border-radius: 50%;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* Navigation buttons */
+.lb-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#prevBtn { left: 20px; }
+#nextBtn { right: 20px; }
+
+/* Caption */
+.lb-caption {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+}
+
+/* Responsive images in gallery */
+@media(max-width:600px){
+    .card img {
+        height: 150px;
+    }
+}

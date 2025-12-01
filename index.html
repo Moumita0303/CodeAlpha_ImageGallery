@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery — CodeAlpha</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <h1>Image Gallery</h1>
+
+        <div class="filters">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="nature">Nature</button>
+            <button data-filter="city">City</button>
+            <button data-filter="people">People</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery" id="gallery">
+
+            <!-- Card 1 -->
+            <div class="card" data-category="nature">
+                <img src="images/img1.jpg" alt="Image 1" data-index="0">
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card" data-category="city">
+                <img src="images/img2.jpg" alt="Image 2" data-index="1">
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card" data-category="people">
+                <img src="images/img3.jpg" alt="Image 3" data-index="2">
+            </div>
+
+        </section>
+    </main>
+
+    <!-- Lightbox for fullscreen view -->
+    <div class="lightbox" id="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-img" id="lightbox-img">
+        <button id="prevBtn" class="nav-btn">❮</button>
+        <button id="nextBtn" class="nav-btn">❯</button>
+    </div>
+
+    <!-- JS File -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
