@@ -28,3 +28,19 @@ This project is created as a part of the **CodeAlpha Frontend Development Intern
 ---
 
 ## 📁 Project Folder Structure
+├── index.html
+├── css
+│ └── style.css
+├── js
+│ └── script.js
+└── images
+├── img1.jpg
+├── img2.jpg
+└── img3.jpg
+## 🚀 Live Demo
+🔗 **GitHub Pages:**  
+https://moumita0303.github.io/CodeAlpha_ImageGallery/
+
+## 💻 GitHub Repository  
+🔗 **Repo Link:**  
+https://github.com/Moumita0303/CodeAlpha_ImageGallery
