@@ -1,18 +1,30 @@
-My name is-Moumita Paul. 
+# 📸 CodeAlpha Image Gallery Project
 
-Project name:CodeAlpha_ImageGallery
-# Image Gallery Project
+A responsive and interactive **Image Gallery** built using **HTML, CSS, and JavaScript**.  
+This project displays images in a clean grid layout and allows users to view them in a larger preview with a smooth modal popup.
 
-This project is an interactive **image gallery** built with HTML, CSS, and JavaScript.  
-It includes a **lightbox view, next/prev navigation, hover effects**, and is **fully responsive**.
+## 👩‍💻 About Me
+**Name:** Moumita Paul  
+**Course:** B.Tech CSE  
+**College:** JIS College of Engineering (MAKAUT)
 
-## Features
-- Responsive design
-- Lightbox fullscreen view
-- Smooth hover effects
-- Next/Previous navigation
+This project is created as a part of the **CodeAlpha Frontend Development Internship**.
 
-## How to use
-1. Open `index.html` in your browser.
-2. Click on images to view them in fullscreen.
-  
+## 🎯 Project Features
+✔ Responsive grid layout  
+✔ Image hover effects  
+✔ Modal popup for full-size preview  
+✔ Close button + background blur  
+✔ Smooth transition animations  
+✔ Clean & beginner-friendly code structure  
+
+---
+
+## 🛠️ Technologies Used
+- **HTML5** for structure  
+- **CSS3 (Flexbox/Grid)** for styling and layout  
+- **JavaScript (ES6+)** for interactivity  
+
+---
+
+## 📁 Project Folder Structure
